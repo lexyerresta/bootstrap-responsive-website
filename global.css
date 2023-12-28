@@ -117,6 +117,9 @@ body {
     width: 37rem;
     height: 42rem;
     position: relative;
+    display: flex; /* Add this */
+    justify-content: center; /* Add this */
+    align-items: center; /* Add this */
 }
 
 @media (max-width:500px) {
@@ -132,7 +135,7 @@ body {
 }
 
 .tranding-slide .tranding-slide-img img {
-    width: 37rem;
+    width: 50rem;
     height: 42rem;
     border-radius: 2rem;
     object-fit: cover;
@@ -249,11 +252,3 @@ body {
     background: var(--primary);
 }
 
-@media (max-width: 768px) {
-
-    /* This is the breakpoint for mobile devices */
-    .carousel-img {
-        height: 200px;
-        /* Adjust as needed */
-    }
-}
