@@ -26,6 +26,24 @@
     background: #006666; /* Change to a darker shade on hover */
 }
 
+@media (min-width: 992px) {
+    .custom-image, .custom-button {
+        margin-bottom: 50px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+    .custom-image, .custom-button {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 575px) {
+    .custom-image, .custom-button {
+        margin-bottom: 10px;
+    }
+}
+
 /* Swiper Slider 3D Coverflow */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
 
@@ -95,7 +113,6 @@ body {
 .container {
     max-width: 124rem;
     padding: 0 1rem;
-    margin: 0 auto;
 }
 
 .text-center {
@@ -269,20 +286,3 @@ body {
     background: var(--primary);
 }
 
-@media (min-width: 992px) {
-    .custom-image, .custom-button {
-        margin-bottom: 50px;
-    }
-}
-
-@media (min-width: 576px) and (max-width: 991px) {
-    .custom-image, .custom-button {
-        margin-bottom: 20px;
-    }
-}
-
-@media (max-width: 575px) {
-    .custom-image, .custom-button {
-        margin-bottom: 10px;
-    }
-}
