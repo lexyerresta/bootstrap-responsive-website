@@ -6,7 +6,6 @@
     width: 100%;
     /* Full width */
     border-radius: 10px;
-    margin-bottom: 50px;
 }
 
 .custom-button {
@@ -270,3 +269,20 @@ body {
     background: var(--primary);
 }
 
+@media (min-width: 992px) {
+    .custom-image, .custom-button {
+        margin-bottom: 50px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+    .custom-image, .custom-button {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 575px) {
+    .custom-image, .custom-button {
+        margin-bottom: 10px;
+    }
+}
